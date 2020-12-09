@@ -45,7 +45,7 @@ var client = {
   getBrowserName: function() {
     var agent_parsed = ua_parser(navigator.userAgent);
     var browsername = agent_parsed.browser.name;
-    return browsername.toLowerCase();
+    return "brave"; //browsername.toLowerCase();
   },
 
   getBucketId: function() {
